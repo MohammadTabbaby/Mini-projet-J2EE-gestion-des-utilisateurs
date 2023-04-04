@@ -16,3 +16,8 @@
     </div>
   </div>
 </nav>
+<style>
+  body {
+    background-color: #151515;
+  }
+</style>

@@ -5,17 +5,17 @@
 <head>
     <title>Title</title>
     <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="${pageContext.request.contextPath}/css/bootstrap.min.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
     <link rel="stylesheet" href="${pageContext.request.contextPath}/css/custom.css">
     <!-- Bootstrap JS -->
-    <script src="${pageContext.request.contextPath}/js/bootstrap.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
 
 </head>
 <body>
 <%@include file="header.jsp" %>
 <p></p>
 <div class="container" style="display: flex;justify-content: center;align-items: center;">
-    <div class="card text-bg-success" style="width: 30rem;">
+    <div class="card text-white bg-success mb-3" style="width: 30rem;">
         <div class="card-header">
             Ajouter des Utilisateurs
         </div>
